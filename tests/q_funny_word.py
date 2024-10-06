@@ -25,8 +25,8 @@ test = {
         },
         {
           'code': r"""
-          >>> funny_word
-          'marrow'
+          >>> funny_word == 'marrow'
+          True
           """,
           'hidden': False,
           'locked': False

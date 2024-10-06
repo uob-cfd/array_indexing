@@ -31,7 +31,7 @@ test = {
           ...             'to', 'suffer', 'the', 'slings', 'and', 'arrows',
           ...             'of', 'outrageous', 'fortune'])
           >>> np.all(we_want == hamlet_improved)
-          True
+          np.True_
           """,
           'hidden': False,
           'locked': False

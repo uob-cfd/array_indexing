@@ -25,8 +25,8 @@ test = {
         },
         {
           'code': r"""
-          >>> first_word
-          'to'
+          >>> first_word == 'to'
+          True
           """,
           'hidden': False,
           'locked': False
