@@ -30,8 +30,7 @@ test = {
           ...             'whether', 'be', 'nobler', 'in', 'the', 'mind',
           ...             'to', 'suffer', 'the', 'slings', 'and', 'arrows',
           ...             'of', 'outrageous', 'fortune'])
-          >>> np.all(we_want == hamlet_improved)
-          np.True_
+          >>> assert np.all(we_want == hamlet_improved)
           """,
           'hidden': False,
           'locked': False
